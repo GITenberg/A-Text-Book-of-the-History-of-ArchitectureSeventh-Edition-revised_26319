@@ -1,0 +1,201 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+div.titlepage, div.maintext, div.index
+{padding-top: 1em; padding-bottom: 1em;
+margin-top: 3em; margin-bottom: 3em;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em; text-align: center;}
+hr.mid {width: 40%;}
+
+img {margin-bottom: 1em;}
+img.null {margin-bottom: 0;}
+
+a.tag {text-decoration: none; vertical-align: .3em; font-size: 80%;
+padding-left: .25em; line-height: .1em;}
+a.plain {text-decoration: none;}
+table.toc a, table.contents a {text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5; margin-top: .5em;
+margin-bottom: .5em;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 150%;}
+div.titlepage h2 {font-size: 175%;}
+h2.chapter {margin-top: 3em;}
+
+h3 {font-size: 125%; margin-bottom: .75em;}
+div.titlepage h3 {font-size: 150%; margin-top: .5em;
+margin-bottom: .5em;}
+h3.chapter {margin-top: 3em; margin-bottom: 1em;}
+h3.subhead {font-size: 95%; margin-bottom: 1.3em; margin-left: 10%; margin-right: 10%;}
+h3.subsub {font-size: 80%; margin-bottom: 1.5em; margin-left: 10%; margin-right: 10%;}
+
+h4 {font-size: 115%; margin-top: 1em;}
+div.titlepage h4 {font-size: 120%; margin-top: .5em;}
+h5 {font-size: 100%;}
+div.endnote h5 {margin-top: 1em; font-weight: bold;}
+h6 {font-size: 85%;}
+div.titlepage h6 {font-size: 75%;}
+
+p, blockquote {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+p.space {margin-top: 1em;}
+
+p.w90 {width: 90px;}
+p.w120 {width: 120px;}
+p.w150 {width: 150px;}
+p.w180 {width: 180px;}
+p.w210 {width: 210px;}
+p.w240 {width: 240px;}
+p.w270 {width: 270px;}
+
+
+/* illustrations */
+
+p.illustration {text-align: center; clear: both; margin-top: 1em;
+margin-bottom: 1em; font-size: 75%; line-height: 1.6;} /* includes title */
+
+p.illustration.float {float: right; clear: right;
+margin: 1em 0 .33em 1.33em;}
+p.illustration.floatleft {float: left; clear: left;
+margin: 1em 1.33em .33em 0;}
+
+p.illustration.float.null, p.illustration.floatleft.null
+{margin-bottom: 0;}
+
+p.illustration.float + p.illustration.float,
+p.illustration.floatleft + p.illustration.floatleft {margin-top: 0;}
+
+span.illustration {margin: 1em 0 .33em 1.33em; font-size: 75%;
+float: right; clear: right;} /* float by default */
+span.illustration.floatleft
+{float: left; clear: left; margin: 1em 1.33em .33em 0;}
+
+p.caption {text-align: left; margin: 0 1em 1em; font-size: 92%;}
+
+p.illustration.float + p.caption {float: right; clear: right;
+margin: 0 0 .5em 1em;} /* long float */
+p.illustration.floatleft + p.caption {float: left; clear: left;
+margin: 0 1em .5em 0;} /* long floatleft */
+
+span.caption {margin-bottom: 1em; font-size: 125%; line-height: 1.2;}
+/* font size relative to 75% in illustration */
+
+a.closeup {margin-bottom: 1em; font-size: 133%;
+line-height: 1.2; font-style: italic;}
+p.closeup {float: right; clear: right; margin: 0 0 .5em 1em;
+text-align: center; font-style: italic;}
+
+
+p.note {margin-top: 1em; font-size: 92%;}
+p.books {font-size: 92%; margin: 0 2em 1em 1em;}
+
+div.monuments, p.monuments {margin: 1.5em 2em 0 1em; font-size: 88%;
+clear: both;}
+div.monuments p + p {margin-top: .3em;}
+
+/* used in glossary */
+div.hanging p {margin-left: 1em; text-indent: -1em; margin-top: 0;}
+div.hanging p.space {margin-top: 1em;}
+
+div.index p {margin-left: 1em; text-indent: -1em; margin-top: 0;
+font-size: 92%;}
+div.index p.first {margin-top: 1em;}
+div.index.arch p.first {font-variant: small-caps;}
+
+div.index p.inset1 {margin-left: 2em;}
+div.index p.inset2 {margin-left: 3em;}
+div.index p.inset3 {margin-left: 4em;}
+
+p.hanging {margin-left: 1em; text-indent: -1em;}
+p.center {text-align: center;}
+p.right {text-align: right; margin-right: 2em;}
+p.lefthalf {margin-right: 50%; text-align: center;}
+
+/* footnotes */
+
+p.footnote, div.footnote {margin: 2em; font-size: 92%;
+padding-top: .5em; border-top: 1px solid #999;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em;}
+table.names {font-size: inherit;}
+
+td {vertical-align: top; text-align: left; padding: .1em;}
+table.names td {padding: .1em 1em .1em 0;}
+
+tr.space td {padding-top: 1em;}
+
+td.number {text-align: right;}
+
+table.bracket {margin-top: 0; margin-left: 0; margin-bottom: 0;
+border-collapse: collapse;}
+table.bracket td {padding: 0;}
+
+table.bracket td.bracket {vertical-align: middle;
+background-repeat: no-repeat;
+background-position: center left; padding-left: 1em;
+background-image: url("images/bracket.gif");}
+
+/* two-line TOC */
+
+table.toc {margin-top: 0;}
+table.toc td {padding: .25em .5em 0 0;}
+table.toc td.chapnum {text-align: center; padding-top: 1em;}
+table.toc tr.space td {padding-top: 1em;}
+td.chapname {font-variant: small-caps;}
+td.chapname i {font-variant: normal;}
+
+table.contents {font-family: sans-serif; font-size: 90%;}
+table.contents td {padding: .1em .5em;}
+table.contents tr.space td {padding-top: 1em;}
+
+/* conditional */
+
+table p {margin-top: 0em; margin-left: 2em; text-indent: -2em;
+line-height: normal;}
+table.bracket p {line-height: 1.2; margin-left: 0; text-indent: 0;}
+table.names p {margin-left: 1em; text-indent: -1em;}
+
+
+/* text formatting */
+
+span.firstword {font-variant: small-caps;}
+
+.smallroman {text-transform: lowercase; font-variant: small-caps;}
+
+.smallcaps {font-variant: small-caps;}
+.smaller {font-size: 88%;}
+.extended {letter-spacing: 0.2em; padding-left: .2em;}
+.sans {font-family: sans-serif;} /* by preference */
+
+/* greek original or translit */
+
+span.greek {border-bottom: 1px dotted #666;}
+
+/* my additions */
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+
+/* page number */
+
+span.pagenum {position: absolute; right: 2%; font-size: 95%;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0em;}
+
+/* Transcriber's Note */
+
+.mynote {background-color: #DDE; color: #000;
+font-family: sans-serif; font-size: 90%;}
+
+div.mynote {margin: 1em 5%; padding: .5em 1em 1em;}
+p.mynote {margin: 1em 5%; padding: 1em;}
+div.mynote a {text-decoration: none;}
+
+div.endnote {padding: 0 1em 1em; margin: 2em 1em;
+font-family: sans-serif; font-size: 90%; border: 3px ridge #A9F;}
