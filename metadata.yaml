@@ -1,0 +1,30 @@
+_repo: A-Text-Book-of-the-History-of-ArchitectureSeventh-Edition-revised_26319
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Hamlin, A. D. F. (Alfred Dwight Foster)
+    alias: Hamlin, Alfred Dwight Foster
+    birthdate: 1855
+    deathdate: 1926
+    gutenberg_agent_id: '31910'
+    url: http://www.gutenberg.org/2009/agents/31910
+description: A Text-Book of the History of Architecture - The Original Classic Edition.
+gutenberg_issued: '2008-08-15'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '26319'
+  lccn: 09027932
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Architecture -- History'
+- !lcc 'NA'
+title: 'A Text-Book of the History of Architecture
+
+  Seventh Edition, revised'
+url: http://www.gutenberg.org/ebooks/26319
