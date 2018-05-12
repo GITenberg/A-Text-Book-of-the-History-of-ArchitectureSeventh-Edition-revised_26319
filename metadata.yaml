@@ -12,6 +12,8 @@ creator:
     gutenberg_agent_id: '31910'
     url: http://www.gutenberg.org/2009/agents/31910
 description: A Text-Book of the History of Architecture - The Original Classic Edition.
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/26319#A-Text-Book-of-the-History-of-ArchitectureSeventh-Edition-revised
 gutenberg_issued: '2008-08-15'
 gutenberg_type: Text
 identifiers:
